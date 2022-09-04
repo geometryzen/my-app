@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "sourceMap": true,
+        "outDir": "build",
+        "declarationDir": "types",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "skipLibCheck": true
+    },
+    "baseUrl": ".",
+    "paths": {
+        "@geometryzen/my-lib": [
+            "node_modules/@geometryzen/my-lib/src"
+        ],
+        "@geometryzen/my-lib/*": [
+            "node_modules/@geometryzen/my-lib/src/*"
+        ]
+    }
+}
