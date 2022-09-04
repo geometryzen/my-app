@@ -10,6 +10,9 @@
     },
     "author": "David Geo Holmes",
     "license": "ISC",
+    "dependencies": {
+        "@geometryzen/my-lib": "file:../my-lib"
+    },
     "devDependencies": {
         "typescript": "^4.8.2"
     }
